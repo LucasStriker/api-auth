@@ -7,5 +7,5 @@ const server = http.createServer(app)
 
 if (server) {
     server.listen(port)
-    console.log("Servidor criado com sucesso\nPorta: " + port)
+    console.log("API REST iniciada com sucesso\nPorta: " + port)
 }
