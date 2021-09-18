@@ -63,7 +63,7 @@ exports.getMsgs = async (req, res, next) => {
 exports.unauthorizedAccess = async (req, res, next) => {
     try {
 
-        const request = await http.createSimpleHttpRequest("SUA_URL_WEBHOOK", { content: req.body.content }, 'POST', { ['Content-Type']: 'application/json' })
+        const request = await http.createSimpleHttpRequest(process.env.WEBHOOK_UA, { content: req.body.content }, 'POST', { ['Content-Type']: 'application/json' })
 
         return res.status(201).send({
             message: request === undefined ? "Webhook enviado com sucesso" : "Ocorreu um erro ao enviar o Webhook"
