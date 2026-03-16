@@ -14,13 +14,9 @@ Esta API foi desenvolvida para processar todas as requisições de licenciamento
 * 📂 **File Delivery**: Endpoint seguro para o fornecimento dos scripts via download controlado.
 * 👥 **Dev Access Control**: Lógica de permissão para acesso de programadores secundários integrada à base de dados.
 
-> [!TIP]
-> A API utiliza cabeçalhos de autenticação personalizados para evitar requisições forjadas ou ataques de [Man-in-the-Middle](https://pt.wikipedia.org/wiki/Ataque_man-in-the-middle).
-
 ---
 
 ## 🛠️ Tecnologias e Infraestrutura
 
 - **Backend**: Node.js [v14.17.6 (LTS)](https://nodejs.org/en/blog/release/v14.17.6)
 - **Estrutura**: JavaScript / [Guard Clauses](https://en.wikipedia.org/wiki/Guard_%28computer_science%29)
-- **Segurança**: Tokens e validação de origem e sanitização de entradas.
