@@ -1,6 +1,6 @@
 # 🔐 API Auth v1 - Autenticação de Scripts (FiveM)
 
-> [!IMPORTANT]
+> [!CAUTION]
 > Esta API foi desenvolvida em **Setembro de 2021** e está obsoleta possuindo uma [versão mais recente](https://github.com/LucasStriker/api-auth2).
 
 Esta API foi desenvolvida para processar todas as requisições de licenciamento. O projeto foi estruturado com foco em **Alta Disponibilidade** e **Arquitetura Escalável**, garantindo endpoints performáticos e validações de integridade de dados.
