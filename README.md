@@ -1,7 +1,7 @@
 # 🔐 API Auth v1 - Autenticação de Scripts (FiveM)
 
 > [!IMPORTANT]
-> Esta API foi desenvolvida em **Setembro de 2021** e atualmente há uma [versão mais recente](https://github.com/LucasStriker/api-auth2).
+> Esta API foi desenvolvida em **Setembro de 2021** e está obsoleta possuindo uma [versão mais recente](https://github.com/LucasStriker/api-auth2).
 
 Esta API foi desenvolvida para processar todas as requisições de licenciamento. O projeto foi estruturado com foco em **Alta Disponibilidade** e **Arquitetura Escalável**, garantindo endpoints performáticos e validações de integridade de dados.
 
@@ -24,12 +24,3 @@ Esta API foi desenvolvida para processar todas as requisições de licenciamento
 - **Backend**: Node.js [v14.17.6 (LTS)](https://nodejs.org/en/blog/release/v14.17.6)
 - **Estrutura**: JavaScript / [Guard Clauses](https://en.wikipedia.org/wiki/Guard_%28computer_science%29)
 - **Segurança**: Tokens e validação de origem e sanitização de entradas.
-
----
-
-## 📂 Organização Modular
-
-O projeto segue uma organização baseada em **Separação de Preocupações (SoC)**:
-- **Routes/Controllers**: Gerenciamento de rotas e processamento de entradas.
-- **Middlewares**: Filtros de segurança e validação de tokens em tempo real.
-- **Services**: Lógica de negócio e integração direta com a camada de dados.
